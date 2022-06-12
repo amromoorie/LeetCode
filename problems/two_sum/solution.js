@@ -8,9 +8,9 @@ var twoSum = function (nums, target) {
   const lookup = new Map()
   for (let i = 0; i < nums.length; i++) {
     // current iterating value
-    let current = nums[i]
+    const current = nums[i]
     // complementary value of current iterating value
-    let complementValue = target - current
+    const complementValue = target - current
     // if lookup map has the complementValue;
     // return the 2 indexes that adds up to target
     if (lookup.has(complementValue)) {
