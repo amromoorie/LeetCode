@@ -14,7 +14,6 @@ class Solution {
             if (endValue >= startValue) {
                 result[pos] = endValue;
                 end--;
-
             } else {
                 result[pos] = startValue;
                 start++;
